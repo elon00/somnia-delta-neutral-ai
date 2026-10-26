@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "somnia-delta-neutral-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Somnia Network",
+        "PROJECT_TICKER": "SOMDELTA"
+      },
+      "tools": [
+        {
+          "name": "verify_somdelta_invariants",
+          "description": "Verifies deterministic invariants for Somnia Delta Neutral AI on Somnia Network."
+        },
+        {
+          "name": "execute_somdelta_action",
+          "description": "Executes authenticated Trading Bot state transition."
+        }
+      ]
+    }
+  }
+}

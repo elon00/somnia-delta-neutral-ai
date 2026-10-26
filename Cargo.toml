@@ -1,0 +1,9 @@
+[package]
+name = "somnia-delta-neutral-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Automated basis trading and cash-and-carry bot"
+license = "MIT"
+
+[dependencies]
